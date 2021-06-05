@@ -25,7 +25,7 @@
 <td>{{ $b->harga }}</td>
 <td>
 <a href="/barang/edit/{{ $b->id }}">Edit</a>
-|
+
 <a href="/barang/hapus/{{ $b->id }}">Hapus</a>
 </td>
 </tr>

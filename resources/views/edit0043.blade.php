@@ -13,7 +13,7 @@
 {{ csrf_field() }}
 <input type="hidden" name="id" value="{{ $b->id }}"> <br/>
 Nama <input type="text" required="required" name="nama" value="{{ $b->nama }}"> <br/>
-Harga <textarea required="required" name="Harga">{{ $b->harga }}</textarea> <br/>
+Harga <textarea required="required" name="harga">{{ $b->harga }}</textarea> <br/>
 <input type="submit" value="Simpan Data">
 </form>
 @endforeach
